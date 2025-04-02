@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split your bill</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+
+  
+<!-- 
+    split bill -->
+    <div class="w-[400px] mx-auto mt-36 text-center">
+
+    <h1 class="text-4xl mb-4 font-bold" id="result">🍿🚘⛱️</h1>
+
+        <h1 id="heading" class="text-2xl font-bold">Split the bill among your friends!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, tempora.</p>
+
+
+        <div class="flex gap-2">
+            <input id="amount" type="text" placeholder="Enter Amount" class="w-1/2 py-3 border border-neutral-300 px-3 mt-2  rounded-xl focus:border-violet-300 focus:outline-none focus:ring-4 focus:ring-violet-200 transition">
+            <input id="persons" type="text" placeholder="Enter persons" class="w-1/2 py-3 border border-neutral-300 px-3 mt-2  rounded-xl focus:border-violet-300 focus:outline-none focus:ring-4 focus:ring-violet-200 transition">
+
+        </div>
+        <button id="btn" onclick="split()" class="bg-black w-full text-white px-4 py-4 rounded-xl mt-2">Split the bill</button>
+
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
